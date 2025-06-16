@@ -10,7 +10,7 @@ const CONFIG = {
   NOBELIUM_MENU_CATEGORY: false, // 显示分类
   NOBELIUM_MENU_TAG: false, // 显示标签
   NOBELIUM_MENU_ARCHIVE: true, // 显示归档
-  NOBELIUM_MENU_SEARCH: true, // 显示搜索
+  NOBELIUM_MENU_SEARCH: false, // 显示搜索
   NOBELIUM_MENU_RSS: true, // 显示订阅
 
   NOBELIUM_AUTO_COLLAPSE_NAV_BAR: false // 页头导航栏动画
