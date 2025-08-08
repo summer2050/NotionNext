@@ -18,7 +18,7 @@ const CONFIG = {
   MATERY_MENU_SEARCH: true, // 显示搜索
 
   MATERY_POST_LIST_COVER: false, // 文章封面
-  MATERY_POST_LIST_SUMMARY: true, // 文章摘要
+  MATERY_POST_LIST_SUMMARY: false, // 文章摘要
   MATERY_POST_LIST_PREVIEW: false, // 读取文章预览
 
   MATERY_ARTICLE_ADJACENT: false, // 显示上一篇下一篇文章推荐
