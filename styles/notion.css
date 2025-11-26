@@ -666,7 +666,7 @@ svg.notion-page-icon {
 
 .notion-list-numbered {
   list-style-type: decimal;
-  padding-inline-start: 1.6em;
+  padding-inline-start: 0.6em;
   margin-top: 0;
   margin-bottom: 0;
 }
