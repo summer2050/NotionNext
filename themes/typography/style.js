@@ -13,6 +13,7 @@ const Style = () => {
       .font-typography {
         font-weight: 400;
         font-family:
+          georgia,
           Source Sans Pro,
           Roboto,
           Helvetica,
