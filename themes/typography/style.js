@@ -49,14 +49,9 @@ const Style = () => {
         --primary-color: #2e405b;
         background-color: rgb(255 255 255) / 1;
         color: #2e405b;
-        background-size: 7px 7px;
+        background-size: 20px 20px;
         text-shadow: 1px 1px 1px rgb(0 0 0 / 0.04);
-        background-image: linear-gradient(
-            to right,
-            rgb(0 0 0 / 0.04) 1px,
-            transparent 1px
-          ),
-          linear-gradient(to bottom, rgb(0 0 0 / 0.04) 1px, transparent 1px);
+        background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%);
       }
 
       #theme-typography #blog-name {
