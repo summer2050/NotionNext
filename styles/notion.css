@@ -1978,7 +1978,6 @@ svg + .notion-page-title-text {
   width: 100%;
   white-space: pre-wrap;
   word-break: break-word;
-  border-left: 5px dashed;
   padding: 0.2em 0.9em;
   margin: 6px 0;
   font-size: 1em;
