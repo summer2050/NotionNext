@@ -730,7 +730,7 @@ svg.notion-page-icon {
   width: 100%;
   white-space: pre-wrap;
   word-break: break-word;
-  padding: 3px 2px !important;
+  padding: 3px 0px !important;
   margin: 1px 0 !important;
 }
 
