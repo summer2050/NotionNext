@@ -659,7 +659,7 @@ svg.notion-page-icon {
 
 .notion-list-disc {
   list-style-type: disc;
-  padding-inline-start: 1.4em;
+  padding-inline-start: 2px;
   margin-top: 0;
   margin-bottom: 0;
 }
