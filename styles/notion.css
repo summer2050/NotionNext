@@ -587,7 +587,7 @@ summary > .notion-h {
 .notion-page-link {
   display: flex;
   color: var(--fg-color);
-  text-decoration: underline;
+  text-decoration: none;
   width: 100%;
   height: 30px;
   margin: 1px 0;
