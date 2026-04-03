@@ -64,7 +64,7 @@ const Style = () => {
       }
 
       #theme-typography .blog-item-title {
-        color: #276077;
+        color: #222;
       }
 
       .dark #theme-typography .blog-item-title {
