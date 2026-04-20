@@ -13,16 +13,7 @@ const Style = () => {
       .font-typography {
         font-weight: 400;
         font-family:
-          Source Sans Pro,
-          Roboto,
-          Helvetica,
-          Helvetica Neue,
-          Source Han Sans SC,
-          Source Han Sans TC,
-          PingFang SC,
-          PingFang HK,
-          PingFang TC,
-          sans-serif !important;
+          Inter,"Inter UI",Helvetica,"PingFang SC","Source Han Sans SC","Microsoft YaHei UI",-apple-system,sans-serif,"Microsoft YaHei",sans-serif;
         }
       }
       // 底色
