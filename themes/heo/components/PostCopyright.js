@@ -10,7 +10,7 @@ import NotByAI from '@/components/NotByAI'
  * 版权声明
  * @returns
  */
-export default function PostCopyright({ post }) {
+export default function PostCopyright() {
   const router = useRouter()
   const [path, setPath] = useState(siteConfig('LINK') + router.asPath)
   useEffect(() => {
@@ -42,7 +42,7 @@ export default function PostCopyright({ post }) {
         </li>
         <li>
           <strong className='mr-2'>{locale.COMMON.COPYRIGHT}:</strong>
-          {post.copyright || locale.COMMON.COPYRIGHT_NOTICE}
+          {locale.COMMON.COPYRIGHT_NOTICE}
         </li>
         {siteConfig('HEO_ARTICLE_NOT_BY_AI', false, CONFIG) && (
           <li>

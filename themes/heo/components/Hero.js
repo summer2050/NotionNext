@@ -320,10 +320,8 @@ function TodayCard({ cRef, siteInfo }) {
   const router = useRouter()
   const link = siteConfig('HEO_HERO_TITLE_LINK', null, CONFIG)
   const { locale } = useGlobal()
-  // 获取遮罩控制配置
-  const coverEnable = siteConfig('HEO_HERO_RECOMMEND_COVER_ENABLE', true, CONFIG)
-  // 卡牌是否盖住下层，如果配置为false则默认不盖住
-  const [isCoverUp, setIsCoverUp] = useState(coverEnable)
+  // 卡牌是否盖住下层
+  const [isCoverUp, setIsCoverUp] = useState(true)
 
   /**
    * 外部可以调用此方法
@@ -331,9 +329,7 @@ function TodayCard({ cRef, siteInfo }) {
   useImperativeHandle(cRef, () => {
     return {
       coverUp: () => {
-        if (coverEnable) {
-          setIsCoverUp(true)
-        }
+        setIsCoverUp(true)
       }
     }
   })
@@ -353,11 +349,6 @@ function TodayCard({ cRef, siteInfo }) {
    */
   function handleCardClick(e) {
     router.push(link)
-  }
-
-  // 如果配置为不显示遮罩，则不渲染TodayCard
-  if (!coverEnable) {
-    return null
   }
 
   return (

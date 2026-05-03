@@ -1,7 +1,5 @@
 # 配置体系说明
 
-[English](./CONFIGURATION.en.md)
-
 ## 配置来源与优先级
 
 同名配置项的优先级：

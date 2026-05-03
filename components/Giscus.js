@@ -30,17 +30,17 @@ const GiscusComponent = () => {
       id='giscus'
       data-repo={siteConfig('COMMENT_GISCUS_REPO')}
       data-repo-id={siteConfig('COMMENT_GISCUS_REPO_ID')}
-      data-category={siteConfig('COMMENT_GISCUS_CATEGORY')}
+      //   data-category='{{ $.Site.Params.giscus.dataCategory }}'
       data-category-id={siteConfig('COMMENT_GISCUS_CATEGORY_ID')}
       data-mapping={siteConfig('COMMENT_GISCUS_MAPPING')}
-      data-strict={siteConfig('COMMENT_GISCUS_STRICT')}
+      //   data-strict='0'
       data-reactions-enabled={siteConfig('COMMENT_GISCUS_REACTIONS_ENABLED')}
       data-emit-metadata={siteConfig('COMMENT_GISCUS_EMIT_METADATA')}
       data-input-position={siteConfig('COMMENT_GISCUS_INPUT_POSITION')}
       data-theme={theme}
       data-lang={siteConfig('COMMENT_GISCUS_LANG')}
       data-loading={siteConfig('COMMENT_GISCUS_LOADING')}
-      crossOrigin={siteConfig('COMMENT_GISCUS_CROSSORIGIN')}
+      //   crossorigin={siteConfig('COMMENT_GISCUS_CROSSORIGIN')}
     ></div>
   )
 }

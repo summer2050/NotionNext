@@ -32,19 +32,19 @@ const CatalogDrawerWrapper = ({ post, cRef }) => {
             (tocVisible
               ? 'animate__slideInRight '
               : ' -mr-72 animate__slideOutRight') +
-            ' overflow-y-hidden shadow-card w-60 duration-200 fixed right-2 bottom-20 rounded-xl py-2 bg-white dark:bg-hexo-black-gray dark:border dark:border-black'
+            ' overflow-y-hidden shadow-card w-60 duration-200 fixed right-1 bottom-16 rounded py-2 bg-white dark:bg-hexo-black-gray'
           }>
           {post && (
             <>
-              <div className='px-4 pb-2 flex justify-between items-center border-b border-gray-200 dark:border-black font-bold text-gray-800 dark:text-gray-200'>
+              <div className='px-4 pb-2 flex justify-between items-center border-b font-bold'>
                 <span>{locale.COMMON.TABLE_OF_CONTENTS}</span>
                 <i
-                  className='fas fa-times p-1 cursor-pointer text-gray-500 dark:text-gray-400'
+                  className='fas fa-times p-1 cursor-pointer'
                   onClick={() => {
                     changeTocVisible(false)
                   }}></i>
               </div>
-              <div className='text-gray-600 dark:text-gray-400 px-3'>
+              <div className='dark:text-gray-400 text-gray-600 px-3'>
                 <Catalog post={post} />
               </div>
             </>
@@ -56,7 +56,7 @@ const CatalogDrawerWrapper = ({ post, cRef }) => {
         id='right-drawer-background'
         className={
           (tocVisible ? 'block' : 'hidden') +
-          ' fixed top-0 left-0 z-30 w-full h-full bg-black/35 dark:bg-black/60'
+          ' fixed top-0 left-0 z-30 w-full h-full'
         }
         onClick={switchVisible}
       />

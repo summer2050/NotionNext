@@ -1,7 +1,5 @@
 # 提交与 PR 协作规范
 
-[English](./CONTRIBUTION_WORKFLOW.en.md)
-
 ## 1. 分支策略
 
 - 永远从最新 `main` 拉新分支
