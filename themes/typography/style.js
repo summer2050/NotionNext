@@ -13,16 +13,7 @@ const Style = () => {
       .font-typography {
         font-weight: 400;
         font-family:
-          Source Sans Pro,
-          Roboto,
-          Helvetica,
-          Helvetica Neue,
-          Source Han Sans SC,
-          Source Han Sans TC,
-          PingFang SC,
-          PingFang HK,
-          PingFang TC,
-          sans-serif !important;
+       Inter,"Inter UI",Helvetica,"PingFang SC","Source Han Sans SC","Microsoft YaHei UI",-apple-system,sans-serif,"Microsoft YaHei",sans-serif;
         }
       }
       // 底色
@@ -49,15 +40,8 @@ const Style = () => {
         --primary-color: #2e405b;
         background-color: rgb(255 255 255) / 1;
         color: #2e405b;
-        background-size: 7px 7px;
-        text-shadow: 1px 1px 1px rgb(0 0 0 / 0.04);
-        background-image: linear-gradient(
-            to right,
-            rgb(0 0 0 / 0.04) 1px,
-            transparent 1px
-          ),
-          linear-gradient(to bottom, rgb(0 0 0 / 0.04) 1px, transparent 1px);
-      }
+         background-size: 20px 20px;
+		background-image: linear-gradient(90deg,rgba(50,0,0,5%) 3%,transparent 3%),linear-gradient(360deg,rgba(50,0,0,5%) 3%,transparent 3%);
 
       #theme-typography #blog-name {
         font-family: HiraMinProN-W6, 'Source Han Serif CN',
