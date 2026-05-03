@@ -24,11 +24,11 @@ const CONFIG = {
   // 首页文章列表卡片
   // ---------------------------------------------------------------------------
   /** 是否显示右侧封面图区域 */
-  FUWARI_POST_LIST_COVER: true,
+  FUWARI_POST_LIST_COVER: false,
   /** 无文章封面时，是否用站点横幅图（HOME_BANNER_IMAGE）作默认图 */
-  FUWARI_POST_LIST_COVER_DEFAULT: true,
+  FUWARI_POST_LIST_COVER_DEFAULT: false,
   /** 封面悬停轻微放大 */
-  FUWARI_POST_LIST_COVER_HOVER_ENLARGE: true,
+  FUWARI_POST_LIST_COVER_HOVER_ENLARGE: false,
   /** 显示摘要（有 summary 时） */
   FUWARI_POST_LIST_SUMMARY: true,
   /** 卡片内显示标签 */
@@ -44,7 +44,7 @@ const CONFIG = {
   // 首页 Hero 大图区（封面来自站点信息或下方图片配置）
   // ---------------------------------------------------------------------------
   /** 是否渲染 Hero 区块（无图时仍占位，可按需关） */
-  FUWARI_HERO_ENABLE: true,
+  FUWARI_HERO_ENABLE: false,
   /** 自定义背景图 URL；留空则用 Notion 站点封面或 HOME_BANNER_IMAGE */
   FUWARI_HERO_BG_IMAGE: '',
   /** 右下角署名文案；留空不显示 */
@@ -56,25 +56,25 @@ const CONFIG = {
   // 侧栏（SidePanel）小部件
   // ---------------------------------------------------------------------------
   /** 公告（有公告数据时） */
-  FUWARI_WIDGET_NOTICE: true,
+  FUWARI_WIDGET_NOTICE: false,
   /** 最新文章列表 */
-  FUWARI_WIDGET_LATEST_POSTS: true,
+  FUWARI_WIDGET_LATEST_POSTS: false,
   /** 分类云/列表 */
-  FUWARI_WIDGET_CATEGORY_LIST: true,
+  FUWARI_WIDGET_CATEGORY_LIST: false,
   /** 标签云/列表 */
-  FUWARI_WIDGET_TAG_LIST: true,
+  FUWARI_WIDGET_TAG_LIST: false,
   /** 侧栏头像/昵称下的「个人页」链接路径 */
   FUWARI_PROFILE_PATH: '/about',
   /** 联系/社群入口卡片 */
-  FUWARI_WIDGET_CONTACT: true,
+  FUWARI_WIDGET_CONTACT: false,
   /** 侧栏广告位总开关 */
   FUWARI_WIDGET_AD: false,
   /** 侧栏广告位内：是否渲染 WWAds */
-  FUWARI_WIDGET_WWADS: true,
+  FUWARI_WIDGET_WWADS: false,
   /** 侧栏广告位内：是否渲染 AdSense 槽位 */
   FUWARI_WIDGET_ADSENSE: false,
   /** 插件注入区域卡片 */
-  FUWARI_WIDGET_PLUGIN_AREA: true,
+  FUWARI_WIDGET_PLUGIN_AREA: false,
   /** 访问量等统计卡片 */
   FUWARI_WIDGET_ANALYTICS: true,
   /** 顶栏调色板内的色相滑块等；false 时展开调色板无控件 */
@@ -124,9 +124,9 @@ const CONFIG = {
   // 文章页
   // ---------------------------------------------------------------------------
   /** 文首：日期、分类、标签等元信息 */
-  FUWARI_ARTICLE_META: true,
+  FUWARI_ARTICLE_META: false,
   /** 分享条 */
-  FUWARI_ARTICLE_SHARE: true,
+  FUWARI_ARTICLE_SHARE: false,
   /** 文末版权信息块 */
   FUWARI_ARTICLE_COPYRIGHT: true,
   /** 文末评论区（需在 `blog.config.js` 配置任一种评论服务，如 COMMENT_GISCUS_REPO / COMMENT_TWIKOO_ENV_ID 等，否则不渲染） */
