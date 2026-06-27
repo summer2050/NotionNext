@@ -50,7 +50,7 @@ const Style = () => {
         background-color: rgb(255 255 255) / 1;
         color: #2e405b;
         background-size: 20px 20px;
- background-image: linear-gradient(90deg,rgba(50,0,0,5%) 3%,transparent 3%),linear-gradient(360deg,rgba(50,0,0,5%) 3%,transparent 3%);
+        background-image: linear-gradient(90deg,rgba(50,0,0,5%) 3%,transparent 3%),linear-gradient(360deg,rgba(50,0,0,5%) 3%,transparent 3%);
       }
 
       #theme-typography #blog-name {
