@@ -53,7 +53,7 @@ const Style = () => {
         color: #2e405b;
         background-size: 15px 15px;
         text-shadow: 1px 1px 1px rgb(0 0 0 / 0.04);
-        background-image: linear-gradient(0deg,rgb(243 235 244/0.744) 1px,transparent 1px),linear-gradient(90deg,var(--grid-color) 1px,transparent 1px);
+        background-image: linear-gradient(0deg,rgb(243 235 244/0.744) 1px,transparent 1px),linear-gradient(90deg,,rgb(243 235 244/0.744) 1px,transparent 1px);
      
 
       #theme-typography #blog-name {
